@@ -7,3 +7,6 @@ jobs:
       - TASK:
          - script: ./IN/flagreso1/gitRepo/echo.sh
          - script: echo 'api'
+       
+    flags:
+      - gt
