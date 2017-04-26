@@ -1,0 +1,5 @@
+triggers:
+   - name: flagt1
+     type: trigger
+     version:
+       counter: 711
