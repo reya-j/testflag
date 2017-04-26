@@ -1,0 +1,9 @@
+jobs:
+  - name: jobflag
+    type: runSh
+    steps:
+      - IN: flagreso1
+      - IN: flagt1
+      - TASK:
+         - script: ./IN/flagreso1/gitRepo/echo.sh
+         - script: echo 'api'
