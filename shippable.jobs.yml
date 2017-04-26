@@ -5,7 +5,7 @@ jobs:
       - IN: flagreso2
       - IN: flagt2
       - TASK:
-         - script: ./IN/flagreso1/gitRepo/echo.sh
+         - script: ./IN/flagreso2/gitRepo/echo.sh
          - script: echo 'api'
        
     flags:
