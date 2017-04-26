@@ -1,7 +1,9 @@
 resources:
-  - name: flagreso1
+  - name: flagreso2
     type: gitRepo
     integration: github
     pointer:
       sourceName: shiphitchcock4/samplePhp
       branch: master
+    flags:
+      - flagnonmaster
