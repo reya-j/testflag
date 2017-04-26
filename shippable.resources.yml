@@ -5,3 +5,5 @@ resources:
     pointer:
       sourceName: shiphitchcock4/samplePhp
       branch: master
+    flags:
+      - flagnonmaster
